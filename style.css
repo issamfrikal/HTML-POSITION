@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: azure;
+    text-align: center;
+
+}
+.debut{
+    height: 700px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+header{
+    align-items: center;
+    background-color: aqua;
+    flex-grow: 1;
+   
+    
+}
+.en{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 5;
+    gap: 20px;
+  
+    
+}
+.adroit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 20px;
+   
+}
+
+
+.adroit h2{
+    background-color: blueviolet;
+    flex-grow: 1;
+
+}
+.adroit h3{
+    background-color: rgba(25, 99, 36, 0.267) ;
+    flex-grow: 2;
+
+
+}
+.a-gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
+    gap: 20px;
+   
+}
+.a-gauche h2{
+    background-color:rgb(239, 242, 89) ;
+    flex-grow: 2;
+
+}
+.a-gauche h3{
+    background-color: rgb(117, 115, 107);
+    flex-grow: 1;
+    
+}
+.rolated{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    gap: 20px;
+   
+}
+h4{
+    background-color: rgb(55, 139, 55);
+    flex-grow: 2;
+}
+h5{
+    background-color: rgb(204, 124, 217);
+    flex-grow: 1;
+}
+footer{
+    background-color: rgb(225, 151, 81);
+   flex-grow: 1;
+}
